@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# PostgreSQL
+*.pgsql
+*.psql
+pg_data/
+
+# VS Code
+.vscode/
+
+# IDE-specific files
+.idea/
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Python bytecode
+*.pyc
+
+# Coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# pipenv
+Pipfile.lock
