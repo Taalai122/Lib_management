@@ -1,10 +1,13 @@
-from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth.models import User
+from django.urls import reverse
+from datetime import date
+
+from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.test import APITestCase
 from rest_framework import status
-from django.urls import reverse
+
 from apps.main.models import Book, Author, Genre
-from datetime import date
+
 
 # Create your tests here.
 

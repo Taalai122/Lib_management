@@ -1,10 +1,8 @@
 from rest_framework.routers import DefaultRouter
 from rest_framework import permissions 
-from apps.main.views.author import AuthorViewSet
-from apps.main.views.book import BookViewSet, GenreViewSet
+from apps.main.views.author import AuthorViewSet, AuthorUpdateView, AuthorDeleteView
+from apps.main.views.book import BookViewSet, GenreViewSet, BookUpdateView, BookDeleteView
 from apps.main.views.fav_book import FavoriteBookViewSet, FavoriteBookUpdateView, FavoriteBookDeleteView
-from apps.main.views.book import BookUpdateView, BookDeleteView
-from apps.main.views.author import AuthorUpdateView, AuthorDeleteView
 
 from django.urls import path, include
 from drf_yasg.views import get_schema_view

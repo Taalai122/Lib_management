@@ -1,6 +1,5 @@
 import django_filters
 from django_filters import rest_framework as filters
-from apps.main import models
 from apps.main.models import FavoriteBook, Book, Author, Genre
 
 class FavoriteBookFilter(filters.FilterSet):
